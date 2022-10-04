@@ -1,0 +1,132 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color:black;
+    border:none;
+}
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+a {
+    font-size: .8rem;
+}
+
+a:hover {
+    color:cornflowerblue; /*esqueceu a senha e registrar fica azul*/
+}
+
+
+/*container login */
+
+ #login-container{
+     background-color: white;
+     width: 400px;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 20px 30px;
+     margin-top: 20vh;    
+     border-radius: 10px; /*a redonda os cantos*/
+     text-align: center;
+ }
+  
+
+ /* formulario */
+    
+ form {
+     margin-top: 30px;
+     margin-bottom: 40px;
+ }
+
+
+ /* texto de email e senha */
+
+ label, input {
+     display: block;
+     width: 100%;
+     text-align: left;
+ }
+
+ label {
+     font-weight: bold;
+ }
+
+
+ /* area do digite sua senha/login */
+
+ input{
+     border-bottom: 2px solid #015f40; /*ver qual melhor buttom ou n*/
+     padding: 15px;
+     font-size: 1rem;
+     margin-bottom: 20px; 
+ }
+
+
+ input:focus { /* quando receber foco fica dessa cor*/
+     border-bottom: 2px solid #3CB371;
+ }
+
+
+ /*esqueceu a senha*/
+ 
+ #forgot-pass {
+     text-align: right;
+     display: block;
+ }
+
+
+ /*login*/
+
+ input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border: 20px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: #015f40;
+    cursor: pointer; 
+ }
+ input[type="button"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border: 20px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: #015f40;
+    cursor: pointer; 
+ }
+ input[type="submit"]:hover { /*botão do login*/
+    background-color: rgb(60, 206, 113);
+    transition: .5s;
+ }
+
+ input[type="button"]:hover { /*botão do cadastro*/
+    background-color: rgb(60, 206, 113);
+    transition: .5s;
+ }
+
+ /* registrar */
+
+#register-container p {
+    bottom: 10px;
+
+}
+.botao{
+    text-decoration: none;
+}
